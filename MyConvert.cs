@@ -1,5 +1,5 @@
 ﻿
-internal static class MyConvert
+public static class MyConvert
 {
     /// <summary>
     /// Преобразует заданное строковое представление числа в эквивалентное число с плавающей запятой двойной точности
