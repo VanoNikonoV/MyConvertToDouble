@@ -83,7 +83,7 @@ public static class MyConvert
     /// <exception cref="FormatException"></exception>
     private static double CharsToDouble(char[] numbers, bool revers = false)
     {
-        double result = 0;
+        double result = default;
 
         char[] reversed = numbers.Reverse().ToArray();
 

@@ -13,7 +13,7 @@
  */
 string max = Double.MinValue.ToString("G17");
 
-string[] values = { "  -112,035.77219", "1AFF", "1e-35", null, "100",
+string[] values = { "1AFF","  -112,035.77219", "1e-35", null, "100",
                          "1,635,592,999,999,999,999,999,999", "-17.455",
                          "190.34001", "1.29e325", max};
 
