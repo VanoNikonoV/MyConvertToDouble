@@ -66,7 +66,7 @@ public static class MyConvert
             }
             else 
             {
-                if (input[i] == '-' || input[i] == '.' || input[i] == ',') { continue; }
+                if (input[i] == '.' || input[i] == ',') { continue; }
                 
                 else throw new FormatException();
             }
